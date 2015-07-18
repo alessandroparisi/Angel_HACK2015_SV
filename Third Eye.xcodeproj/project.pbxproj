@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714F78071B5AFDD90006739D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F78061B5AFDD90006739D /* AppDelegate.swift */; };
+		714F780A1B5AFDD90006739D /* Third_Eye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 714F78081B5AFDD90006739D /* Third_Eye.xcdatamodeld */; };
+		714F780C1B5AFDD90006739D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F780B1B5AFDD90006739D /* ViewController.swift */; };
+		714F780F1B5AFDD90006739D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714F780D1B5AFDD90006739D /* Main.storyboard */; };
+		714F78111B5AFDD90006739D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714F78101B5AFDD90006739D /* Images.xcassets */; };
+		714F78141B5AFDD90006739D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714F78121B5AFDD90006739D /* LaunchScreen.xib */; };
+		714F78201B5AFDD90006739D /* Third_EyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F781F1B5AFDD90006739D /* Third_EyeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		714F781A1B5AFDD90006739D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714F77F91B5AFDD90006739D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714F78001B5AFDD90006739D;
+			remoteInfo = "Third Eye";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		714F78011B5AFDD90006739D /* Third Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Third Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		714F78051B5AFDD90006739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714F78061B5AFDD90006739D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		714F78091B5AFDD90006739D /* Third_Eye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Third_Eye.xcdatamodel; sourceTree = "<group>"; };
+		714F780B1B5AFDD90006739D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		714F780E1B5AFDD90006739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		714F78101B5AFDD90006739D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		714F78131B5AFDD90006739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		714F78191B5AFDD90006739D /* Third EyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Third EyeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		714F781E1B5AFDD90006739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714F781F1B5AFDD90006739D /* Third_EyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third_EyeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714F77FE1B5AFDD90006739D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714F78161B5AFDD90006739D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714F77F81B5AFDD90006739D = {
+			isa = PBXGroup;
+			children = (
+				714F78031B5AFDD90006739D /* Third Eye */,
+				714F781C1B5AFDD90006739D /* Third EyeTests */,
+				714F78021B5AFDD90006739D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714F78021B5AFDD90006739D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714F78011B5AFDD90006739D /* Third Eye.app */,
+				714F78191B5AFDD90006739D /* Third EyeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714F78031B5AFDD90006739D /* Third Eye */ = {
+			isa = PBXGroup;
+			children = (
+				714F78061B5AFDD90006739D /* AppDelegate.swift */,
+				714F780B1B5AFDD90006739D /* ViewController.swift */,
+				714F780D1B5AFDD90006739D /* Main.storyboard */,
+				714F78101B5AFDD90006739D /* Images.xcassets */,
+				714F78121B5AFDD90006739D /* LaunchScreen.xib */,
+				714F78081B5AFDD90006739D /* Third_Eye.xcdatamodeld */,
+				714F78041B5AFDD90006739D /* Supporting Files */,
+			);
+			path = "Third Eye";
+			sourceTree = "<group>";
+		};
+		714F78041B5AFDD90006739D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714F78051B5AFDD90006739D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		714F781C1B5AFDD90006739D /* Third EyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				714F781F1B5AFDD90006739D /* Third_EyeTests.swift */,
+				714F781D1B5AFDD90006739D /* Supporting Files */,
+			);
+			path = "Third EyeTests";
+			sourceTree = "<group>";
+		};
+		714F781D1B5AFDD90006739D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714F781E1B5AFDD90006739D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714F78001B5AFDD90006739D /* Third Eye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714F78231B5AFDD90006739D /* Build configuration list for PBXNativeTarget "Third Eye" */;
+			buildPhases = (
+				714F77FD1B5AFDD90006739D /* Sources */,
+				714F77FE1B5AFDD90006739D /* Frameworks */,
+				714F77FF1B5AFDD90006739D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Third Eye";
+			productName = "Third Eye";
+			productReference = 714F78011B5AFDD90006739D /* Third Eye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		714F78181B5AFDD90006739D /* Third EyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714F78261B5AFDD90006739D /* Build configuration list for PBXNativeTarget "Third EyeTests" */;
+			buildPhases = (
+				714F78151B5AFDD90006739D /* Sources */,
+				714F78161B5AFDD90006739D /* Frameworks */,
+				714F78171B5AFDD90006739D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714F781B1B5AFDD90006739D /* PBXTargetDependency */,
+			);
+			name = "Third EyeTests";
+			productName = "Third EyeTests";
+			productReference = 714F78191B5AFDD90006739D /* Third EyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714F77F91B5AFDD90006739D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Trith Tech.";
+				TargetAttributes = {
+					714F78001B5AFDD90006739D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					714F78181B5AFDD90006739D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 714F78001B5AFDD90006739D;
+					};
+				};
+			};
+			buildConfigurationList = 714F77FC1B5AFDD90006739D /* Build configuration list for PBXProject "Third Eye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714F77F81B5AFDD90006739D;
+			productRefGroup = 714F78021B5AFDD90006739D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714F78001B5AFDD90006739D /* Third Eye */,
+				714F78181B5AFDD90006739D /* Third EyeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714F77FF1B5AFDD90006739D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714F780F1B5AFDD90006739D /* Main.storyboard in Resources */,
+				714F78141B5AFDD90006739D /* LaunchScreen.xib in Resources */,
+				714F78111B5AFDD90006739D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714F78171B5AFDD90006739D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714F77FD1B5AFDD90006739D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714F780C1B5AFDD90006739D /* ViewController.swift in Sources */,
+				714F78071B5AFDD90006739D /* AppDelegate.swift in Sources */,
+				714F780A1B5AFDD90006739D /* Third_Eye.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714F78151B5AFDD90006739D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714F78201B5AFDD90006739D /* Third_EyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		714F781B1B5AFDD90006739D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714F78001B5AFDD90006739D /* Third Eye */;
+			targetProxy = 714F781A1B5AFDD90006739D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		714F780D1B5AFDD90006739D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714F780E1B5AFDD90006739D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		714F78121B5AFDD90006739D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714F78131B5AFDD90006739D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714F78211B5AFDD90006739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		714F78221B5AFDD90006739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714F78241B5AFDD90006739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Third Eye/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		714F78251B5AFDD90006739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Third Eye/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		714F78271B5AFDD90006739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Third EyeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Third Eye.app/Third Eye";
+			};
+			name = Debug;
+		};
+		714F78281B5AFDD90006739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Third EyeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Third Eye.app/Third Eye";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714F77FC1B5AFDD90006739D /* Build configuration list for PBXProject "Third Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714F78211B5AFDD90006739D /* Debug */,
+				714F78221B5AFDD90006739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714F78231B5AFDD90006739D /* Build configuration list for PBXNativeTarget "Third Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714F78241B5AFDD90006739D /* Debug */,
+				714F78251B5AFDD90006739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		714F78261B5AFDD90006739D /* Build configuration list for PBXNativeTarget "Third EyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714F78271B5AFDD90006739D /* Debug */,
+				714F78281B5AFDD90006739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		714F78081B5AFDD90006739D /* Third_Eye.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				714F78091B5AFDD90006739D /* Third_Eye.xcdatamodel */,
+			);
+			currentVersion = 714F78091B5AFDD90006739D /* Third_Eye.xcdatamodel */;
+			path = Third_Eye.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 714F77F91B5AFDD90006739D /* Project object */;
+}

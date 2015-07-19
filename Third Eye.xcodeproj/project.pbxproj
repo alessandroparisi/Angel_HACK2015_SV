@@ -14,6 +14,7 @@
 		714F78111B5AFDD90006739D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714F78101B5AFDD90006739D /* Images.xcassets */; };
 		714F78141B5AFDD90006739D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714F78121B5AFDD90006739D /* LaunchScreen.xib */; };
 		714F78201B5AFDD90006739D /* Third_EyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F781F1B5AFDD90006739D /* Third_EyeTests.swift */; };
+		714F782A1B5B584F0006739D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714F78291B5B584F0006739D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		714F78191B5AFDD90006739D /* Third EyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Third EyeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		714F781E1B5AFDD90006739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		714F781F1B5AFDD90006739D /* Third_EyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third_EyeTests.swift; sourceTree = "<group>"; };
+		714F78291B5B584F0006739D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714F782A1B5B584F0006739D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		714F77F81B5AFDD90006739D = {
 			isa = PBXGroup;
 			children = (
+				714F78291B5B584F0006739D /* AVFoundation.framework */,
 				714F78031B5AFDD90006739D /* Third Eye */,
 				714F781C1B5AFDD90006739D /* Third EyeTests */,
 				714F78021B5AFDD90006739D /* Products */,
@@ -413,6 +417,7 @@
 				714F78251B5AFDD90006739D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		714F78261B5AFDD90006739D /* Build configuration list for PBXNativeTarget "Third EyeTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				714F78281B5AFDD90006739D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
